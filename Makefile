@@ -38,3 +38,6 @@ ci: clean check test
 count: build ## count the source files
 	@ls -1 \$(SRC_DIR)/*.txt | wc -l
 	@wc -w \$(OUTPUTS) | tail -1
+# count: see section 5 of the README
+# OUTPUTS is set by the wildcard above
+# run 'make help' for all targets
