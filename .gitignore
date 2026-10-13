@@ -1,3 +1,4 @@
-# Build output and logs
+# Build output, logs and editor swap files
 out/
 *.log
+*.swp
